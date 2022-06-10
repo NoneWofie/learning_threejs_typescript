@@ -1,0 +1,22 @@
+{
+	"name": "learning_threejs_typescript",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:NoneWofie/learning_threejs_typescript.git",
+	"author": "Reuben Roshan <lelopopsinger@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"tsc": "tsc -w",
+		"dev": "webpack serve --config ./src/client/webpack.dev.js"
+	},
+	"devDependencies": {
+		"@types/three": "^0.141.0",
+		"three": "^0.141.0",
+		"ts-loader": "^9.3.0",
+		"typescript": "^4.7.3",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.2",
+		"webpack-merge": "^5.8.0"
+	}
+}
